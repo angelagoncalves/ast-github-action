@@ -16,6 +16,3 @@ checkmarx:
         languageMode: 'multi'
         filter: '!*.java,!*.cpp'
         engineVerbose: 'true'
-      kics:
-        filter: '*.java'
-        platforms: 'Ansible,CloudFormation,Dockerfile'
