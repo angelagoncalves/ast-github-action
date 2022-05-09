@@ -14,8 +14,8 @@ jobs:
       - name: Checkmarx AST CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: <Name of CxAST Project>
-          cx_tenant: <CxAST Tenant Account>
-          base_uri: <CxAST Base uri> 
-          cx_client_id: ${{ secrets.CLIENT_ID }}
+          project_name: ASTLAB_ANGELA
+          cx_tenant: cx_pm_ast_ori_james_brotsos_tenant
+          base_uri: https://ast.checkmarx.net
+          cx_client_id: ${{ secrets.client1_astlab}}
           cx_client_secret: ${{ secrets.SECRET }}
